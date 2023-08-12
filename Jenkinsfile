@@ -1,1 +1,10 @@
-it is a a file
+pipeline{
+  agent any
+  stages{
+    stage('deploy'){
+      steps{
+        echo "welcome to pipeline"
+      }
+    }
+  }
+}
